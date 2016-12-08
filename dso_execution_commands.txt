@@ -1,0 +1,15 @@
+# TUM monoVO dataset
+build/bin/dso_dataset files=../TUM-mono-dataset/sequence_01/images.zip calib=../TUM-mono-dataset/sequence_01/camera.txt gamma=../TUM-mono-dataset/sequence_01/pcalib.txt vignette=../TUM-mono-dataset/sequence_01/vignette.png preset=0 mode=0
+
+
+# ICSL dataset (visensor)
+build/bin/dso_dataset files=../ICSLdataset/ICSL302_02/images.zip calib=../ICSLdataset/ICSL302_02/camera.txt mode=1
+build/bin/dso_dataset files=../ICSLdataset/ICSL302_03/images.zip calib=../ICSLdataset/ICSL302_03/camera.txt mode=1
+
+
+# EuRoC dataset
+build/bin/dso_dataset files=../EuRoCdataset/MH_01_easy/images.zip calib=../EuRoCdataset/MH_01_easy/camera.txt mode=1
+
+
+# KITTI dataset
+build/bin/dso_dataset files=../KITTIdataset/Residential_2011_09_30/images.zip calib=../KITTIdataset/Residential_2011_09_30/camera.txt mode=1
